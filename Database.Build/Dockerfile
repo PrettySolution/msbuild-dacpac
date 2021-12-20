@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1.416 AS build
 WORKDIR /src
 COPY ["CrtxAdmin/CrtxAdmin.csproj", "CrtxAdmin/"]
 COPY ["Database.Build/Database.Build.csproj", "Database.Build/"]
