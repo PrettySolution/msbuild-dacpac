@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="MSBuild.Sdk.SqlProj/1.17.2">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CrtxAdmin\CrtxAdmin.sqlproj" />
+    <ProjectReference Include="..\CrtxAdmin\CrtxAdmin.csproj" />
    </ItemGroup>
 	
 </Project>
